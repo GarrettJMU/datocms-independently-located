@@ -4,23 +4,8 @@ export default function Intro() {
       <h1 className="text-6xl md:text-8xl font-bold tracking-tighter leading-tight md:pr-8">
         Independently Located.
       </h1>
-      <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
-        A statically generated blog example using{' '}
-        <a
-          href="https://nextjs.org/"
-          className="underline hover:text-success duration-200 transition-colors"
-        >
-          Next.js
-        </a>{' '}
-        and{' '}
-        <a
-          href="https://www.datocms.com/"
-          className="underline hover:text-success duration-200 transition-colors"
-        >
-          DatoCMS
-        </a>
-        .
-      </h4>
+      <div className="text-center md:text-left text-lg mt-5 md:pl-8">
+      </div>
     </section>
   )
 }
