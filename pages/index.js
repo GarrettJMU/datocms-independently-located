@@ -77,7 +77,7 @@ export default function Index({ subscription }) {
       <Layout preview={subscription.preview}>
         <Head>{renderMetaTags(metaTags)}</Head>
         <Container>
-          <Intro />
+          <Intro metaTags={metaTags}/>
           {heroPost && (
             <HeroPost
               title={heroPost.title}
