@@ -1,5 +1,5 @@
 export default function Intro({metaTags}) {
-    metaTags.forEach((metaObject)=>(console.log(metaObject.attributes?.name)))
+    metaTags.forEach((metaObject)=>(console.log(metaObject.attributes)))
     console.log("here",metaTags.filter((metaObject)=>(metaObject.attributes?.name == 'og:image')))
   return (
     <section className="flex-col md:flex-row flex items-center md:justify-between mt-16 mb-16 md:mb-12">
