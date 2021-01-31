@@ -4,7 +4,9 @@ export default function Intro() {
       <h1 className="text-6xl md:text-8xl font-bold tracking-tighter leading-tight md:pr-8">
         Independently Located.
       </h1>
-      <div className="text-center md:text-left text-lg mt-5 md:pl-8">
+      <div className="text-center md:text-right text-lg mt-5 md:pl-8">
+          {/*TODO: add the logo here*/}
+          {/*<img src={}/>*/}
       </div>
     </section>
   )
