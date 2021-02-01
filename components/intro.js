@@ -8,7 +8,7 @@ export default function Intro({metaTags}) {
             </h1>
             <div className="text-center md:text-right text-lg mt-5 md:pl-8">
                 {/*<img src={ogImage.attributes.content}/>*/}
-            s</div>
+            </div>
         </section>
     )
 }
