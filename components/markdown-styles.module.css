@@ -9,6 +9,11 @@
   @apply my-6;
 }
 
+.markdown h1 {
+  @apply text-3xl mt-12 mb-4 leading-snug;
+  font-weight: bold;
+}
+
 .markdown h2 {
   @apply text-3xl mt-12 mb-4 leading-snug;
 }
