@@ -22,6 +22,6 @@
   @apply text-2xl mt-8 mb-4 leading-snug;
 }
 
-a {
+.markdown a {
   text-decoration: underline;
 }
